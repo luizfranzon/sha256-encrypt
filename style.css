@@ -21,22 +21,42 @@ body {
 
 h1 {
     text-decoration: underline;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    font-size: 4rem;
 }
 
 h1,label {
     color: white;
+    font-weight: bold;
 }
 
-#button {
-    margin-bottom: 20px;
+.button {
+    margin-bottom: 45px;
+    font-size: 2rem;
+
+    margin-top: 10px;
+    width: 300px;
+
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 8px;
+
+    font-weight: bold;
+
 }
 
-input {
-    width: 500px;
-    padding: 4px;
+.button:hover {
+    background-color: white;
+    color: rgb(27, 27, 27);;
 }
 
 textarea {
     padding: 8px;
+    font-size: 1.8rem;
+}
+
+label {
+    font-size: 2rem;
 }
