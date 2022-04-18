@@ -1,0 +1,9 @@
+{
+  "name": "stringToSHA256",
+  "version": "1.0.0",
+  "main": "script.js",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
